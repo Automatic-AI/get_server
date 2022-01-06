@@ -8,7 +8,7 @@ void runIsolate(void Function(dynamic _) isol) {
   // performance possible. Increasing the number of isolates, regardless of the 
   // number of cpus, will degrade performance.
   for (int i = 0; i < 2; i++){
-    Isolate.spawn(isol, item);
+   
   }
 }
 
